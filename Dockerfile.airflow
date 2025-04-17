@@ -1,0 +1,10 @@
+FROM apache/airflow:2.10.1
+
+USER root
+# upgrade pip (optional but avoids SSL/metadata warnings)
+RUN python -m pip install --no-cache-dir --upgrade pip \
+ && python -m pip install --no-cache-dir \
+        sentence-transformers==2.6.1 \
+        "pinecone-client[grpc]==3.0.2"
+
+USER airflow

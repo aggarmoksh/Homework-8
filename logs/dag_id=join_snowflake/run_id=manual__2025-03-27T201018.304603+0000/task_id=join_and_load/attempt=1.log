@@ -1,0 +1,43 @@
+[2025-03-27T20:10:20.472+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-27T20:10:20.488+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: join_snowflake.join_and_load manual__2025-03-27T20:10:18.304603+00:00 [queued]>
+[2025-03-27T20:10:20.497+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: join_snowflake.join_and_load manual__2025-03-27T20:10:18.304603+00:00 [queued]>
+[2025-03-27T20:10:20.498+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-03-27T20:10:20.509+0000] {taskinstance.py:2888} INFO - Executing <Task(_PythonDecoratedOperator): join_and_load> on 2025-03-27 20:10:18.304603+00:00
+[2025-03-27T20:10:20.520+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'join_snowflake', 'join_and_load', 'manual__2025-03-27T20:10:18.304603+00:00', '--job-id', '83', '--raw', '--subdir', 'DAGS_FOLDER/join_dag.py', '--cfg-path', '/tmp/tmpmv_ai6ss']
+[2025-03-27T20:10:20.527+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=1656) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-03-27T20:10:20.528+0000] {standard_task_runner.py:72} INFO - Started process 1659 to run task
+[2025-03-27T20:10:20.525+0000] {standard_task_runner.py:105} INFO - Job 83: Subtask join_and_load
+[2025-03-27T20:10:20.576+0000] {task_command.py:467} INFO - Running <TaskInstance: join_snowflake.join_and_load manual__2025-03-27T20:10:18.304603+00:00 [running]> on host edfa4618dc0c
+[2025-03-27T20:10:20.683+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='join_snowflake' AIRFLOW_CTX_TASK_ID='join_and_load' AIRFLOW_CTX_EXECUTION_DATE='2025-03-27T20:10:18.304603+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-27T20:10:18.304603+00:00'
+[2025-03-27T20:10:20.684+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-03-27T20:10:20.694+0000] {base.py:84} INFO - Retrieving connection 'snowflake_conn1'
+[2025-03-27T20:10:20.695+0000] {connection.py:413} INFO - Snowflake Connector for Python Version: 3.12.1, Python Version: 3.12.5, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.36
+[2025-03-27T20:10:20.696+0000] {connection.py:1196} INFO - Connecting to GLOBAL Snowflake domain
+[2025-03-27T20:10:20.697+0000] {connection.py:1277} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-03-27T20:10:21.302+0000] {join_dag.py:22} INFO - CREATE OR REPLACE TABLE dev.analytics.temp_session_summary AS 
+            SELECT u.*, s.ts
+            FROM dev.raw.user_session_channel u
+            JOIN dev.raw.session_timestamp s ON u.sessionId = s.sessionId
+        
+[2025-03-27T20:10:22.701+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-03-27T20:10:22.702+0000] {join_dag.py:33} INFO - 
+                SELECT sessionId, COUNT(1) AS cnt 
+                FROM dev.analytics.temp_session_summary
+                GROUP BY 1
+                HAVING COUNT(1) > 1
+                LIMIT 1;
+            
+[2025-03-27T20:10:23.143+0000] {cursor.py:1156} INFO - Number of results in first chunk: 0
+[2025-03-27T20:10:23.145+0000] {join_dag.py:43} INFO - 
+            CREATE TABLE IF NOT EXISTS dev.analytics.session_summary AS
+            SELECT * FROM dev.analytics.temp_session_summary WHERE 1=0;
+        
+[2025-03-27T20:10:23.227+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-03-27T20:10:23.229+0000] {join_dag.py:47} INFO - ALTER TABLE dev.analytics.session_summary SWAP WITH dev.analytics.temp_session_summary;
+[2025-03-27T20:10:23.363+0000] {cursor.py:1156} INFO - Number of results in first chunk: 1
+[2025-03-27T20:10:23.364+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-03-27T20:10:23.383+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-03-27T20:10:23.385+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=join_snowflake, task_id=join_and_load, run_id=manual__2025-03-27T20:10:18.304603+00:00, execution_date=20250327T201018, start_date=20250327T201020, end_date=20250327T201023
+[2025-03-27T20:10:23.424+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-27T20:10:23.454+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-27T20:10:23.464+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

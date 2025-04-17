@@ -1,0 +1,153 @@
+[2025-03-05T23:42:12.218+0000] {processor.py:186} INFO - Started process (PID=457) to work on /opt/airflow/dags/trial.py
+[2025-03-05T23:42:12.219+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trial.py for tasks to queue
+[2025-03-05T23:42:12.222+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:42:12.222+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trial.py
+[2025-03-05T23:42:12.278+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:42:12.271+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/trial.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/trial.py", line 67, in <module>
+    url = Variable.get("country_capital_url")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable country_capital_url does not exist'
+[2025-03-05T23:42:12.281+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/trial.py
+[2025-03-05T23:42:12.292+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trial.py took 0.079 seconds
+[2025-03-05T23:42:42.651+0000] {processor.py:186} INFO - Started process (PID=468) to work on /opt/airflow/dags/trial.py
+[2025-03-05T23:42:42.653+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trial.py for tasks to queue
+[2025-03-05T23:42:42.656+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:42:42.655+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trial.py
+[2025-03-05T23:42:42.687+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:42:42.683+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/trial.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/trial.py", line 67, in <module>
+    url = Variable.get("country_capital_url")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable country_capital_url does not exist'
+[2025-03-05T23:42:42.688+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/trial.py
+[2025-03-05T23:42:42.705+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trial.py took 0.058 seconds
+[2025-03-05T23:43:13.097+0000] {processor.py:186} INFO - Started process (PID=479) to work on /opt/airflow/dags/trial.py
+[2025-03-05T23:43:13.099+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trial.py for tasks to queue
+[2025-03-05T23:43:13.105+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:43:13.105+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trial.py
+[2025-03-05T23:43:13.197+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:43:13.181+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/trial.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/trial.py", line 67, in <module>
+    url = Variable.get("country_capital_url")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable country_capital_url does not exist'
+[2025-03-05T23:43:13.202+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/trial.py
+[2025-03-05T23:43:13.221+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trial.py took 0.140 seconds
+[2025-03-05T23:43:43.564+0000] {processor.py:186} INFO - Started process (PID=489) to work on /opt/airflow/dags/trial.py
+[2025-03-05T23:43:43.566+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trial.py for tasks to queue
+[2025-03-05T23:43:43.569+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:43:43.569+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trial.py
+[2025-03-05T23:43:43.624+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:43:43.617+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/trial.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/trial.py", line 67, in <module>
+    url = Variable.get("country_capital_url")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable country_capital_url does not exist'
+[2025-03-05T23:43:43.626+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/trial.py
+[2025-03-05T23:43:43.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trial.py took 0.081 seconds
+[2025-03-05T23:44:14.023+0000] {processor.py:186} INFO - Started process (PID=500) to work on /opt/airflow/dags/trial.py
+[2025-03-05T23:44:14.026+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trial.py for tasks to queue
+[2025-03-05T23:44:14.032+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:44:14.031+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trial.py
+[2025-03-05T23:44:14.100+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:44:14.089+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/trial.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/trial.py", line 67, in <module>
+    url = Variable.get("country_capital_url")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable country_capital_url does not exist'
+[2025-03-05T23:44:14.102+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/trial.py
+[2025-03-05T23:44:14.116+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trial.py took 0.104 seconds
+[2025-03-05T23:44:44.518+0000] {processor.py:186} INFO - Started process (PID=511) to work on /opt/airflow/dags/trial.py
+[2025-03-05T23:44:44.519+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trial.py for tasks to queue
+[2025-03-05T23:44:44.523+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:44:44.523+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trial.py
+[2025-03-05T23:44:44.598+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:44:44.581+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/trial.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/trial.py", line 67, in <module>
+    url = Variable.get("country_capital_url")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable country_capital_url does not exist'
+[2025-03-05T23:44:44.602+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/trial.py
+[2025-03-05T23:44:44.620+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trial.py took 0.107 seconds
+[2025-03-05T23:45:14.978+0000] {processor.py:186} INFO - Started process (PID=522) to work on /opt/airflow/dags/trial.py
+[2025-03-05T23:45:14.980+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trial.py for tasks to queue
+[2025-03-05T23:45:14.983+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:45:14.983+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trial.py
+[2025-03-05T23:45:15.062+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:45:15.052+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/trial.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/trial.py", line 67, in <module>
+    url = Variable.get("country_capital_url")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable country_capital_url does not exist'
+[2025-03-05T23:45:15.066+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/trial.py
+[2025-03-05T23:45:15.087+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trial.py took 0.119 seconds
+[2025-03-05T23:45:48.690+0000] {processor.py:186} INFO - Started process (PID=533) to work on /opt/airflow/dags/trial.py
+[2025-03-05T23:45:48.697+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trial.py for tasks to queue
+[2025-03-05T23:45:48.711+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:45:48.710+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trial.py
+[2025-03-05T23:45:48.799+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:45:48.782+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/trial.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/trial.py", line 67, in <module>
+    url = Variable.get("country_capital_url")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable country_capital_url does not exist'
+[2025-03-05T23:45:48.814+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/trial.py
+[2025-03-05T23:45:48.841+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trial.py took 0.161 seconds
+[2025-03-05T23:50:58.627+0000] {processor.py:186} INFO - Started process (PID=538) to work on /opt/airflow/dags/trial.py
+[2025-03-05T23:50:58.629+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/trial.py for tasks to queue
+[2025-03-05T23:50:58.633+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:50:58.632+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/trial.py
+[2025-03-05T23:50:58.674+0000] {logging_mixin.py:190} INFO - [2025-03-05T23:50:58.669+0000] {dagbag.py:386} ERROR - Failed to import: /opt/airflow/dags/trial.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 382, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/trial.py", line 67, in <module>
+    url = Variable.get("country_capital_url")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/variable.py", line 145, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable country_capital_url does not exist'
+[2025-03-05T23:50:58.676+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/trial.py
+[2025-03-05T23:50:58.690+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/trial.py took 0.070 seconds

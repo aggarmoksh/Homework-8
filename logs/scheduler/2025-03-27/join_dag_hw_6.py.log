@@ -1,0 +1,113 @@
+[2025-03-27T19:49:45.265+0000] {processor.py:186} INFO - Started process (PID=266) to work on /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:49:45.266+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/join_dag_hw_6.py for tasks to queue
+[2025-03-27T19:49:45.270+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:49:45.270+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:49:45.301+0000] {processor.py:925} INFO - DAG(s) 'elt_snowflake' retrieved from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:49:45.450+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:49:45.450+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:elt_snowflake
+[2025-03-27T19:49:45.461+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:49:45.460+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:elt_snowflake
+[2025-03-27T19:49:45.467+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:49:45.467+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:elt_snowflake
+[2025-03-27T19:49:45.473+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:49:45.473+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:elt_snowflake
+[2025-03-27T19:49:45.480+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:49:45.479+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:elt_snowflake
+[2025-03-27T19:49:45.487+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:49:45.487+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:elt_snowflake
+[2025-03-27T19:49:45.496+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:49:45.495+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:elt_snowflake
+[2025-03-27T19:49:45.497+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:49:45.496+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:49:45.509+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:49:45.509+0000] {dag.py:3252} INFO - Creating ORM DAG for elt_snowflake
+[2025-03-27T19:49:45.520+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:49:45.520+0000] {dag.py:4156} INFO - Setting next_dagrun for elt_snowflake to 2025-03-26 02:45:00+00:00, run_after=2025-03-27 02:45:00+00:00
+[2025-03-27T19:49:45.539+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/join_dag_hw_6.py took 0.285 seconds
+[2025-03-27T19:50:15.719+0000] {processor.py:186} INFO - Started process (PID=321) to work on /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:50:15.720+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/join_dag_hw_6.py for tasks to queue
+[2025-03-27T19:50:15.724+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:50:15.724+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:50:15.770+0000] {processor.py:925} INFO - DAG(s) 'elt_snowflake' retrieved from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:50:15.819+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:50:15.818+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:50:15.843+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:50:15.843+0000] {dag.py:4156} INFO - Setting next_dagrun for elt_snowflake to 2025-03-26 02:45:00+00:00, run_after=2025-03-27 02:45:00+00:00
+[2025-03-27T19:50:15.867+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/join_dag_hw_6.py took 0.155 seconds
+[2025-03-27T19:50:46.227+0000] {processor.py:186} INFO - Started process (PID=356) to work on /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:50:46.227+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/join_dag_hw_6.py for tasks to queue
+[2025-03-27T19:50:46.231+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:50:46.230+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:50:46.271+0000] {processor.py:925} INFO - DAG(s) 'elt_snowflake' retrieved from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:50:46.302+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:50:46.302+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:50:46.339+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:50:46.339+0000] {dag.py:4156} INFO - Setting next_dagrun for elt_snowflake to 2025-03-26 02:45:00+00:00, run_after=2025-03-27 02:45:00+00:00
+[2025-03-27T19:50:46.360+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/join_dag_hw_6.py took 0.141 seconds
+[2025-03-27T19:51:16.585+0000] {processor.py:186} INFO - Started process (PID=392) to work on /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:51:16.587+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/join_dag_hw_6.py for tasks to queue
+[2025-03-27T19:51:16.591+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:51:16.589+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:51:16.622+0000] {processor.py:925} INFO - DAG(s) 'elt_snowflake' retrieved from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:51:16.659+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:51:16.659+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:51:16.692+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:51:16.692+0000] {dag.py:4156} INFO - Setting next_dagrun for elt_snowflake to 2025-03-26 02:45:00+00:00, run_after=2025-03-27 02:45:00+00:00
+[2025-03-27T19:51:16.713+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/join_dag_hw_6.py took 0.133 seconds
+[2025-03-27T19:51:46.867+0000] {processor.py:186} INFO - Started process (PID=428) to work on /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:51:46.869+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/join_dag_hw_6.py for tasks to queue
+[2025-03-27T19:51:46.873+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:51:46.872+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:51:46.925+0000] {processor.py:925} INFO - DAG(s) 'elt_snowflake' retrieved from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:51:46.966+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:51:46.966+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:51:46.992+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:51:46.991+0000] {dag.py:4156} INFO - Setting next_dagrun for elt_snowflake to 2025-03-26 02:45:00+00:00, run_after=2025-03-27 02:45:00+00:00
+[2025-03-27T19:51:47.012+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/join_dag_hw_6.py took 0.150 seconds
+[2025-03-27T19:52:17.235+0000] {processor.py:186} INFO - Started process (PID=464) to work on /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:52:17.236+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/join_dag_hw_6.py for tasks to queue
+[2025-03-27T19:52:17.241+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:52:17.240+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:52:17.280+0000] {processor.py:925} INFO - DAG(s) 'elt_snowflake' retrieved from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:52:17.304+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:52:17.304+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:52:17.326+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:52:17.326+0000] {dag.py:4156} INFO - Setting next_dagrun for elt_snowflake to 2025-03-26 02:45:00+00:00, run_after=2025-03-27 02:45:00+00:00
+[2025-03-27T19:52:17.350+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/join_dag_hw_6.py took 0.127 seconds
+[2025-03-27T19:52:47.723+0000] {processor.py:186} INFO - Started process (PID=501) to work on /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:52:47.725+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/join_dag_hw_6.py for tasks to queue
+[2025-03-27T19:52:47.729+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:52:47.728+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:52:47.779+0000] {processor.py:925} INFO - DAG(s) 'elt_snowflake' retrieved from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:52:47.801+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:52:47.800+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:52:47.819+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:52:47.819+0000] {dag.py:4156} INFO - Setting next_dagrun for elt_snowflake to 2025-03-26 02:45:00+00:00, run_after=2025-03-27 02:45:00+00:00
+[2025-03-27T19:52:47.844+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/join_dag_hw_6.py took 0.127 seconds
+[2025-03-27T19:53:18.293+0000] {processor.py:186} INFO - Started process (PID=537) to work on /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:53:18.294+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/join_dag_hw_6.py for tasks to queue
+[2025-03-27T19:53:18.298+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:53:18.297+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:53:18.351+0000] {processor.py:925} INFO - DAG(s) 'elt_snowflake' retrieved from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:53:18.375+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:53:18.375+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:53:18.397+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:53:18.396+0000] {dag.py:4156} INFO - Setting next_dagrun for elt_snowflake to 2025-03-26 02:45:00+00:00, run_after=2025-03-27 02:45:00+00:00
+[2025-03-27T19:53:18.422+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/join_dag_hw_6.py took 0.138 seconds
+[2025-03-27T19:53:49.076+0000] {processor.py:186} INFO - Started process (PID=573) to work on /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:53:49.077+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/join_dag_hw_6.py for tasks to queue
+[2025-03-27T19:53:49.080+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:53:49.080+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:53:49.128+0000] {processor.py:925} INFO - DAG(s) 'elt_snowflake' retrieved from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:53:49.158+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:53:49.157+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:53:49.184+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:53:49.184+0000] {dag.py:4156} INFO - Setting next_dagrun for elt_snowflake to 2025-03-26 02:45:00+00:00, run_after=2025-03-27 02:45:00+00:00
+[2025-03-27T19:53:49.207+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/join_dag_hw_6.py took 0.139 seconds
+[2025-03-27T19:54:19.595+0000] {processor.py:186} INFO - Started process (PID=616) to work on /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:54:19.596+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/join_dag_hw_6.py for tasks to queue
+[2025-03-27T19:54:19.599+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:54:19.598+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:54:19.623+0000] {processor.py:925} INFO - DAG(s) 'elt_snowflake' retrieved from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:54:19.652+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:54:19.651+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:54:19.676+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:54:19.676+0000] {dag.py:4156} INFO - Setting next_dagrun for elt_snowflake to 2025-03-27 02:45:00+00:00, run_after=2025-03-28 02:45:00+00:00
+[2025-03-27T19:54:19.703+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/join_dag_hw_6.py took 0.112 seconds
+[2025-03-27T19:54:50.171+0000] {processor.py:186} INFO - Started process (PID=660) to work on /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:54:50.172+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/join_dag_hw_6.py for tasks to queue
+[2025-03-27T19:54:50.176+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:54:50.176+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:54:50.218+0000] {processor.py:925} INFO - DAG(s) 'elt_snowflake' retrieved from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:54:50.255+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:54:50.254+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:54:50.277+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:54:50.277+0000] {dag.py:4156} INFO - Setting next_dagrun for elt_snowflake to 2025-03-27 02:45:00+00:00, run_after=2025-03-28 02:45:00+00:00
+[2025-03-27T19:54:50.297+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/join_dag_hw_6.py took 0.133 seconds
+[2025-03-27T19:55:20.556+0000] {processor.py:186} INFO - Started process (PID=695) to work on /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:55:20.557+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/join_dag_hw_6.py for tasks to queue
+[2025-03-27T19:55:20.560+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:55:20.559+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:55:20.602+0000] {processor.py:925} INFO - DAG(s) 'elt_snowflake' retrieved from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:55:20.646+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:55:20.645+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:55:20.683+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:55:20.683+0000] {dag.py:4156} INFO - Setting next_dagrun for elt_snowflake to 2025-03-27 02:45:00+00:00, run_after=2025-03-28 02:45:00+00:00
+[2025-03-27T19:55:20.703+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/join_dag_hw_6.py took 0.154 seconds
+[2025-03-27T19:55:50.917+0000] {processor.py:186} INFO - Started process (PID=731) to work on /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:55:50.919+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/join_dag_hw_6.py for tasks to queue
+[2025-03-27T19:55:50.923+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:55:50.922+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:55:50.940+0000] {processor.py:925} INFO - DAG(s) 'elt_snowflake' retrieved from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:55:50.973+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:55:50.973+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:55:50.998+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:55:50.998+0000] {dag.py:4156} INFO - Setting next_dagrun for elt_snowflake to 2025-03-27 02:45:00+00:00, run_after=2025-03-28 02:45:00+00:00
+[2025-03-27T19:55:51.022+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/join_dag_hw_6.py took 0.110 seconds
+[2025-03-27T19:56:21.237+0000] {processor.py:186} INFO - Started process (PID=767) to work on /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:56:21.241+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/join_dag_hw_6.py for tasks to queue
+[2025-03-27T19:56:21.243+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:56:21.242+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:56:21.272+0000] {processor.py:925} INFO - DAG(s) 'elt_snowflake' retrieved from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:56:21.295+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:56:21.295+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:56:21.320+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:56:21.320+0000] {dag.py:4156} INFO - Setting next_dagrun for elt_snowflake to 2025-03-27 02:45:00+00:00, run_after=2025-03-28 02:45:00+00:00
+[2025-03-27T19:56:21.348+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/join_dag_hw_6.py took 0.117 seconds
+[2025-03-27T19:56:51.662+0000] {processor.py:186} INFO - Started process (PID=803) to work on /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:56:51.664+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/join_dag_hw_6.py for tasks to queue
+[2025-03-27T19:56:51.667+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:56:51.667+0000] {dagbag.py:587} INFO - Filling up the DagBag from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:56:51.699+0000] {processor.py:925} INFO - DAG(s) 'elt_snowflake' retrieved from /opt/airflow/dags/join_dag_hw_6.py
+[2025-03-27T19:56:51.754+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:56:51.753+0000] {dag.py:3229} INFO - Sync 1 DAGs
+[2025-03-27T19:56:51.775+0000] {logging_mixin.py:190} INFO - [2025-03-27T19:56:51.775+0000] {dag.py:4156} INFO - Setting next_dagrun for elt_snowflake to 2025-03-27 02:45:00+00:00, run_after=2025-03-28 02:45:00+00:00
+[2025-03-27T19:56:51.793+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/join_dag_hw_6.py took 0.143 seconds
